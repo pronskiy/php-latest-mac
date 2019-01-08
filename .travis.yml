@@ -50,7 +50,7 @@ script:
   - sed -i '' "s=\$(pwd)/$(find php73 -name opcache.so)=$(pwd)/$(find php73 -name opcache.so)=g" ini/conf.d/ext-opcache.ini
   - sed -i '' "s=\$(pwd)/$(find php73 -name xdebug.so)=$(pwd)/$(find php73 -name xdebug.so)=g" ini/conf.d/ext-xdebug.ini
   - pecl uninstall xdebug
-#  - brew rm --ignore-dependencies php $(brew deps php)
+  - brew rm --ignore-dependencies php $(brew deps php)
   - ./php.sh --version
   - ./php.sh --ini
   - brew install openssl gmp
