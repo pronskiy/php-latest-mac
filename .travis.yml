@@ -46,6 +46,8 @@ script:
   - cp /usr/local/opt/libiconv/lib/libiconv.dylib lib
   - cp /usr/local/opt/curl-openssl/lib/libcurl.4.dylib lib
   - cp /usr/local/opt/nghttp2/lib/libnghttp2.14.dylib lib
+  - cp /usr/local/opt/brotli/lib/libbrotlidec.1.dylib lib
+  - cp /usr/local/opt/brotli/lib/libbrotlienc.1.dylib lib
   - mkdir ini
   - cp /usr/local/etc/php/7.3/php.ini ini
   - cp -r /usr/local/etc/php/7.3/conf.d ini
