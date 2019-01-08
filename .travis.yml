@@ -32,11 +32,11 @@ script:
   - cp /usr/local/opt/freetds/lib/libsybdb.5.dylib lib
   - cp /usr/local/opt/gmp/lib/libgmp.10.dylib lib
   - cp /usr/local/opt/webp/lib/libwebp.7.dylib lib
-  - cp /usr/local/opt/icu4c/lib/libicui18n.62.dylib lib
-  - cp /usr/local/opt/icu4c/lib/libicuuc.62.dylib lib
-  - cp /usr/local/opt/icu4c/lib/libicudata.62.1.dylib lib
-  - cp /usr/local/opt/icu4c/lib/libicuio.62.dylib lib
-  - cp /usr/local/opt/icu4c/lib/libicudata.62.dylib lib
+  - cp /usr/local/opt/icu4c/lib/libicui18n.63.dylib lib
+  - cp /usr/local/opt/icu4c/lib/libicuuc.63.dylib lib
+  - cp /usr/local/opt/icu4c/lib/libicudata.63.1.dylib lib
+  - cp /usr/local/opt/icu4c/lib/libicuio.63.dylib lib
+  - cp /usr/local/opt/icu4c/lib/libicudata.63.dylib lib
   - cp /usr/local/opt/libpq/lib/libpq.5.dylib lib
   - cp /usr/local/opt/sqlite/lib/libsqlite3.0.dylib lib
   - cp /usr/local/opt/tidy-html5/lib/libtidy.5.dylib lib
